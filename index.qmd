@@ -1,0 +1,24 @@
+---
+title: "Data Science Resources"
+number-sections: true
+execute: 
+  echo: false
+date: 2024-07-19
+format: 
+  html:
+    toc: true
+    toc_float: true
+    embed-resources: true
+    code: true
+    code-fold: true
+---
+
+## Recommended R Training Resources
+
+-   [R for Data Science, Second Edition by Hadley Wickham](https://r4ds.hadley.nz/ "R for Data Science, Second Edition by Hadley Wickham")
+
+-   [R Cookbook by Paul Teetor](https://www.oreilly.com/library/view/r-cookbook/9780596809287/ "R Cookbook by Paul Teetor")
+
+The *R Cookbook* is a good reference and is easier to search than the Hadley Wickham book.
+
+## Recommended Python Training Resources
