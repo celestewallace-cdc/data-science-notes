@@ -3,7 +3,8 @@ title: "Data Science Resources"
 number-sections: true
 execute: 
   echo: false
-date: 2024-07-19
+date: last-modified
+date-format: YYYY-MM-DD
 format: 
   html:
     toc: true
@@ -13,12 +14,52 @@ format:
     code-fold: true
 ---
 
-## Recommended R Training Resources
+## R Resources
+
+### Recommended R Training Resources
 
 -   [R for Data Science, Second Edition by Hadley Wickham](https://r4ds.hadley.nz/ "R for Data Science, Second Edition by Hadley Wickham")
 
+This is a very good overview of basic R capabilities, especially the [tidyverse](https://tidyverse.tidyverse.org/) library.
+
 -   [R Cookbook by Paul Teetor](https://www.oreilly.com/library/view/r-cookbook/9780596809287/ "R Cookbook by Paul Teetor")
 
-The *R Cookbook* is a good reference and is easier to search than the Hadley Wickham book.
+The *R Cookbook* is a good reference and is easier to search than the Hadley Wickham book (which I don't think has a free single file digital version).
 
-## Recommended Python Training Resources
+### Most Useful R Libraries
+
+- tidyverse - 
+- reticulate - for using Python and R together in RStudio. This lets you call 
+Python objects within R scripts and vice versa.
+
+
+## Python Resources
+
+Unit testing in Python: 
+
+### Recommended Python Training Resources
+
+## HTML and Publishing Resources
+
+## Quarto 
+
+[Quarto](https://quarto.org/docs/reference/) is handy tool that you can use 
+in RStudio to quickly publish simple HTML pages.
+
+This page was built using Quarto.
+
+## Process Mapping and Flow Charts
+
+[lucidchart](https://www.lucidchart.com/)
+
+[smartdraw](https://www.smartdraw.com/)
+
+Figma
+
+Canva
+
+app.diagrams.net
+
+## Microsoft Visio
+
+The Microsoft 365 for government comes with Visio Online, but unfortunately Visio Online has [quite limited capabilities](https://support.microsoft.com/en-us/office/visio-for-the-web-faq-e6647040-2fca-42ec-9fa5-d16a4e39e0ee).

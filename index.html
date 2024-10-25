@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-07-19">
+<meta name="dcterms.date" content="2024-10-25">
 
 <title>Data Science Resources</title>
 <style>
@@ -2990,8 +2990,19 @@ vertical-align: -.125em;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#recommended-r-training-resources" id="toc-recommended-r-training-resources" class="nav-link active" data-scroll-target="#recommended-r-training-resources"><span class="header-section-number">1</span> Recommended R Training Resources</a></li>
-  <li><a href="#recommended-python-training-resources" id="toc-recommended-python-training-resources" class="nav-link" data-scroll-target="#recommended-python-training-resources"><span class="header-section-number">2</span> Recommended Python Training Resources</a></li>
+  <li><a href="#r-resources" id="toc-r-resources" class="nav-link active" data-scroll-target="#r-resources"><span class="header-section-number">1</span> R Resources</a>
+  <ul class="collapse">
+  <li><a href="#recommended-r-training-resources" id="toc-recommended-r-training-resources" class="nav-link" data-scroll-target="#recommended-r-training-resources"><span class="header-section-number">1.1</span> Recommended R Training Resources</a></li>
+  <li><a href="#most-useful-r-libraries" id="toc-most-useful-r-libraries" class="nav-link" data-scroll-target="#most-useful-r-libraries"><span class="header-section-number">1.2</span> Most Useful R Libraries</a></li>
+  </ul></li>
+  <li><a href="#python-resources" id="toc-python-resources" class="nav-link" data-scroll-target="#python-resources"><span class="header-section-number">2</span> Python Resources</a>
+  <ul class="collapse">
+  <li><a href="#recommended-python-training-resources" id="toc-recommended-python-training-resources" class="nav-link" data-scroll-target="#recommended-python-training-resources"><span class="header-section-number">2.1</span> Recommended Python Training Resources</a></li>
+  </ul></li>
+  <li><a href="#html-and-publishing-resources" id="toc-html-and-publishing-resources" class="nav-link" data-scroll-target="#html-and-publishing-resources"><span class="header-section-number">3</span> HTML and Publishing Resources</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto"><span class="header-section-number">4</span> Quarto</a></li>
+  <li><a href="#process-mapping-and-flow-charts" id="toc-process-mapping-and-flow-charts" class="nav-link" data-scroll-target="#process-mapping-and-flow-charts"><span class="header-section-number">5</span> Process Mapping and Flow Charts</a></li>
+  <li><a href="#microsoft-visio" id="toc-microsoft-visio" class="nav-link" data-scroll-target="#microsoft-visio"><span class="header-section-number">6</span> Microsoft Visio</a></li>
   </ul>
 </nav>
 </div>
@@ -3010,7 +3021,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 19, 2024</p>
+      <p class="date">2024-10-25</p>
     </div>
   </div>
   
@@ -3020,16 +3031,53 @@ vertical-align: -.125em;
 
 </header>
 
-<section id="recommended-r-training-resources" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="recommended-r-training-resources"><span class="header-section-number">1</span> Recommended R Training Resources</h2>
+<section id="r-resources" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="r-resources"><span class="header-section-number">1</span> R Resources</h2>
+<section id="recommended-r-training-resources" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="recommended-r-training-resources"><span class="header-section-number">1.1</span> Recommended R Training Resources</h3>
 <ul>
-<li><p><a href="https://r4ds.hadley.nz/" title="R for Data Science, Second Edition by Hadley Wickham">R for Data Science, Second Edition by Hadley Wickham</a></p></li>
-<li><p><a href="https://www.oreilly.com/library/view/r-cookbook/9780596809287/" title="R Cookbook by Paul Teetor">R Cookbook by Paul Teetor</a></p></li>
+<li><a href="https://r4ds.hadley.nz/" title="R for Data Science, Second Edition by Hadley Wickham">R for Data Science, Second Edition by Hadley Wickham</a></li>
 </ul>
-<p>The <em>R Cookbook</em> is a good reference and is easier to search than the Hadley Wickham book.</p>
+<p>This is a very good overview of basic R capabilities, especially the <a href="https://tidyverse.tidyverse.org/">tidyverse</a> library.</p>
+<ul>
+<li><a href="https://www.oreilly.com/library/view/r-cookbook/9780596809287/" title="R Cookbook by Paul Teetor">R Cookbook by Paul Teetor</a></li>
+</ul>
+<p>The <em>R Cookbook</em> is a good reference and is easier to search than the Hadley Wickham book (which I don’t think has a free single file digital version).</p>
 </section>
-<section id="recommended-python-training-resources" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="recommended-python-training-resources"><span class="header-section-number">2</span> Recommended Python Training Resources</h2>
+<section id="most-useful-r-libraries" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="most-useful-r-libraries"><span class="header-section-number">1.2</span> Most Useful R Libraries</h3>
+<ul>
+<li>tidyverse -</li>
+<li>reticulate - for using Python and R together in RStudio. This lets you call Python objects within R scripts and vice versa.</li>
+</ul>
+</section>
+</section>
+<section id="python-resources" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="python-resources"><span class="header-section-number">2</span> Python Resources</h2>
+<p>Unit testing in Python:</p>
+<section id="recommended-python-training-resources" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="recommended-python-training-resources"><span class="header-section-number">2.1</span> Recommended Python Training Resources</h3>
+</section>
+</section>
+<section id="html-and-publishing-resources" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="html-and-publishing-resources"><span class="header-section-number">3</span> HTML and Publishing Resources</h2>
+</section>
+<section id="quarto" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="quarto"><span class="header-section-number">4</span> Quarto</h2>
+<p><a href="https://quarto.org/docs/reference/">Quarto</a> is handy tool that you can use in RStudio to quickly publish simple HTML pages.</p>
+<p>This page was built using Quarto.</p>
+</section>
+<section id="process-mapping-and-flow-charts" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="process-mapping-and-flow-charts"><span class="header-section-number">5</span> Process Mapping and Flow Charts</h2>
+<p><a href="https://www.lucidchart.com/">lucidchart</a></p>
+<p><a href="https://www.smartdraw.com/">smartdraw</a></p>
+<p>Figma</p>
+<p>Canva</p>
+<p>app.diagrams.net</p>
+</section>
+<section id="microsoft-visio" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="microsoft-visio"><span class="header-section-number">6</span> Microsoft Visio</h2>
+<p>The Microsoft 365 for government comes with Visio Online, but unfortunately Visio Online has <a href="https://support.microsoft.com/en-us/office/visio-for-the-web-faq-e6647040-2fca-42ec-9fa5-d16a4e39e0ee">quite limited capabilities</a>.</p>
 </section>
 
 </main>
